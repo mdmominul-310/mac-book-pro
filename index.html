@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac book pro</title>
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <!------------------------------------
+        Mac book pro main part start
+     ------------------------------------->
+    <main>
+        <section class="container my-5">
+            <div class="row gx-5 ">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <!-- Mac book Pro imagex -->
+                    <img src="images/mac.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div>
+                        <h1>Customize Your Blue 24-inch iMac with Apple M1 chip</h1>
+                        <p>Apple M1 chip withy 8 core CPU with 4 perfomance cores and 4 efficiency cores, 7 core GpU,and
+                            16-core Neural Engine 8GB unified memory 256 GB SSD storage Two Thunderbolt /USB 4 ports
+                            Magic Mouse Magic Keyboard-US English</p>
+                        <!-- product configaration  -->
+                        <!-- memory details -->
+                        <div class="row gy-3">
+                            <h6>memory</h6>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <button class="btn btn-light border rounded w-100" id="default-memory">8GB unified
+                                    memory</button>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <button class="btn btn-light border rounded w-100 " id="memory-update">16GB unified
+                                    memory</button>
+                            </div>
+                        </div>
+                        <!-- storage detailes -->
+                        <div class="row my-5">
+                            <h6>storage</h6>
+                            <div class="col col-lg-4 col-md-4 col-sm-12 ">
+                                <button class="btn btn-light border rounded w-100" id="default-storage">256GB SSD
+                                    storage</button>
+                            </div>
+                            <div class="col col-lg-4 col-md-4 col-sm-12 ">
+                                <button class="btn btn-light border rounded w-100" id="medium-storage">
+                                    512GB SSD storage
+                                </button>
+                            </div>
+                            <div class="col  col-lg-4 col-md-4 col-sm-12">
+                                <button class="btn btn-light border rounded w-100" id="bigger-storage">
+                                    1TB SSD storage
+                                </button>
+                            </div>
+                        </div>
+                        <!-- delivery option here -->
+                        <div class="row my-5">
+                            <h6>Choose your delivery option</h6>
+                            <div class="col">
+                                <button class="btn btn-light border rounded" id="default-delivery">
+                                    Friday, Aug 25 FREE Prime Delivery
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-light border rounded" id="fast-delivery">
+                                    Friday, Aug 21 delivery charge $20
+                                </button>
+                            </div>
+                        </div>
+                        <!-- price item  -->
+                        <divl class="price-details">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="price-item">
+                                        <div class="row g-0">
+                                            <div class="col">
+                                                <h6>Best Price</h6>
+                                                <h6>Extra Memory cost</h6>
+                                                <h6>Extra Storage Cost</h6>
+                                                <h6 class="special-border"> Delivery Charge</h6>
+                                                <h6>Total price</h6>
+                                            </div>
+                                            <div class="col-2">
+                                                <h6>$<span id="primary-price">1299</span></h6>
+                                                <h6>$<span id="extra-memory">0</span></h6>
+                                                <h6>$<span id="extra-storage">0</span></h6>
+                                                <h6 class="special-border">$<span id="extra-delivery">0</span></h6>
+                                                <h6>$<span id="sum">1299</span></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="promo-code my-4">
+                                        <h6>Apply promo code</h6>
+                                        <div class="row g-1">
+                                            <div class="col-lg-10">
+                                                <input type="text" class="form-control" id="promo-input">
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <button class="btn btn-danger" id="promo-apply">Apply</button>
+                                            </div>
+                                            <p class="text-danger" id="error-messege"></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </divl>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <sectin class="container">
+            <hr>
+            <h1 class="text-center">Total: $<span id="sum-footer">1299</span></h1>
+            </div>
+        </sectin>
+    </main>
+    <!---------------------------------------
+         main application javascript file 
+    ------------------------------------- -->
+    <script src="js/app.js"></script>
+    <!-- bootstrap js for style -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
